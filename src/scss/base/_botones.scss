@@ -1,0 +1,20 @@
+.boton-tell {
+    @include boton($tell, inline-block);
+}
+
+.boton-tell-block {
+    @include boton($tell, block);
+    width: 100%;
+}
+
+.boton-verde {
+    @include boton($verde, inline-block);
+}
+
+.boton-verde-block {
+    @include boton($verde, block);
+}
+
+.boton-amarillo-block {
+    @include boton($amarillo, block);
+}

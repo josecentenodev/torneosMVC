@@ -1,0 +1,23 @@
+.dark-mode {
+    background-color: darken($grisOscuro, 10);
+    p {
+        color: $blanco
+    }
+    a,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $gris;
+    }
+    .torneo {
+        border: none;
+    }
+    .contenido-torneo {
+        p {
+            color: $negro;
+        }
+    }
+}

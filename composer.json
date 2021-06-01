@@ -1,0 +1,20 @@
+{
+    "name": "equipo/bienesraices_inicio",
+    "description": "Torneos LoL",
+    "type": "project",
+    "authors": [{
+        "name": "DevCito",
+        "email": "jocecito182@gmail.com"
+    }],
+    "require": {
+        "intervention/image": "^2.5",
+        "phpmailer/phpmailer": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers"
+        }
+    }
+}

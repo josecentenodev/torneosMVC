@@ -1,0 +1,42 @@
+.footer {
+    margin-bottom: 0;
+    color: $blanco;
+    padding: $separacion/2 0;
+    background-color: $grisOscuro;
+    .contenedor-footer {
+        padding-top: $separacion/2;
+    }
+    .copyright {
+        color: $blanco;
+        text-align: center;
+    }
+}
+
+.icons {
+    @include telefono {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    @include tablet {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    a {
+        color: $blanco;
+        text-decoration: none;
+        font-size: 2.2rem;
+        display: block;
+        text-align: center;
+        @include tablet {
+            margin-right: 2rem;
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+        img {
+            max-width: 35px;
+        }
+    }
+}
